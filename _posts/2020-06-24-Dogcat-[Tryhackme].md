@@ -2,8 +2,6 @@
 published: true
 image: /assets/img/sample/DogCat/dogcat.png
 ---
-![Desktop View](/assets/img/sample/DogCat/1.png)
-
 Hello guys , This is one of the machine in [tryhackme](https://tryhackme.com/).Name is [dogcat](https://tryhackme.com/room/dogcat).
 
 # [](#header-2)Nmap Scan
