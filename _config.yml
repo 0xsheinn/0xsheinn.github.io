@@ -10,7 +10,7 @@
 
 title: 0xSypher                         # the main title
 
-tagline: InfoSec/CyberSec  # it will display as the sub-title
+tagline: A text-focused Jekyll theme.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -22,7 +22,7 @@ url: 'protocol://domain'
 
 author: sheinnkhant                  # change to your full name
 
-avatar: /assets/img/sample/avatar.jpg   # support internet resources
+avatar: /master/assets/img/sample/avatar.jpg   # support internet resources
 
 github:
   username: 0xsheinn            # change to your github username
