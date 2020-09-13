@@ -1,11 +1,15 @@
 ---
 title: About
-
-# The About page
-# v2.0
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2017-2019 Cotes Chung
-# MIT License
+published: true
 ---
 
-> **Note**: Add Markdown syntax content to file `tabs/about.md` and it will show up on this page.
+I am a third year collage student who likes cybersecurity, penetration testing and red teaming. I work on boxes from HackTheBox and TryHackme.
+
+
+##Hack The Box Badge
+
+<script src="https://www.hackthebox.eu/badge/237587"></script>
+
+##Try Hack Me Badge
+
+<script src="https://tryhackme.com/badge/97569"></script>
