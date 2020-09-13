@@ -8,7 +8,7 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Chirpy                          # the main title
+title: 0xSypher                         # the main title
 
 tagline: A text-focused Jekyll theme.  # it will display as the sub-title
 
@@ -20,15 +20,15 @@ description: >-                        # used by seo meta and the atom feed
 # Replace with the website url, e.g. 'https://username.github.io'
 url: 'protocol://domain'
 
-author: your_full_name                  # change to your full name
+author: sheinnkhant                  # change to your full name
 
-avatar: /assets/img/sample/avatar.jpg   # support internet resources
+avatar: /assets/img/sample/ska.jpg   # support internet resources
 
 github:
-  username: github_username             # change to your github username
+  username: 0xsheinn            # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: @ska1337            # change to your twitter username
 
 social:
   name: your_full_name                  # it will shows as the copyright owner in Footer
