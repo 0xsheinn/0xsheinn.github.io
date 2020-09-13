@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-![](https://raw.githubusercontent.com/0xsheinn/0xsheinn.github.io/master/_posts/images/bounty_hacker_wirteup/1.png)
+![Desktop View](/assets/img/sample/bounty_hacker_wirteup/1.png)
 
 Today I wanna share for you a very easy fun box in [Tryhackme](https://tryhackme.com/) called [Bounty Hacker](https://tryhackme.com/room/cowboyhacker) created by [Sevuhl](https://tryhackme.com/p/Sevuhl)
 
@@ -45,7 +45,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 ```
 # [](#header-2)Web
 
-![](https://raw.githubusercontent.com/0xsheinn/0xsheinn.github.io/master/_posts/images/bounty_hacker_wirteup/2.png)
+![Desktop View](/assets/img/sample/bounty_hacker_wirteup/2.png)
 
 I scanned all directories, but nothing interesting there ,let's move on 
 
@@ -202,7 +202,7 @@ User lin may run the following commands on bountyhacker:
 
 `lin` user can run `tar` as root ,let's go [GTFObin](https://gtfobins.github.io/) and search `tar`
 
-![](https://raw.githubusercontent.com/0xsheinn/0xsheinn.github.io/master/_posts/images/bounty_hacker_wirteup/3.png)
+![Desktop View](/assets/img/sample/bounty_hacker_wirteup/3.png)
 
 Now we use this command for privilege escalation
 
@@ -221,7 +221,7 @@ THM{80UN7Y_h4cK3r}
 
 We owned this machine :)
 
-![](https://raw.githubusercontent.com/0xsheinn/0xsheinn.github.io/master/_posts/images/bounty_hacker_wirteup/4.png)
+![Desktop View](/assets/img/sample/bounty_hacker_wirteup/4.png)
 
 [Enjoy..]()
 
