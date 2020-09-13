@@ -1,5 +1,6 @@
 ---
 published: true
+image: /assets/img/sample/DogCat/dogcat.png
 ---
 ![Desktop View](/assets/img/sample/DogCat/1.png)
 
