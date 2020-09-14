@@ -81,7 +81,7 @@ disqus:
 theme_mode: dark
 
 # boolean type, global switch for ToC in posts.
-toc: true
+toc: false
 
 paginate: 10
 
