@@ -1,7 +1,11 @@
 ---
 published: true
 title: 'Matrix [VulHub]'
-image: /assets/img/sample/matrix/logo.jpg
+image: /assets/img/logo/matrix.png
+headline: Matrix is a little difficult machine from vulhub
+categories:
+  - Machine-Writeup
+  - Vulhub
 ---
 # [](#header-3) Nmap Scan
 
