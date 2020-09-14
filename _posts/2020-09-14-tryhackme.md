@@ -1,5 +1,6 @@
 ---
 published: false
+public: true
 ---
 ## A New Post
 
