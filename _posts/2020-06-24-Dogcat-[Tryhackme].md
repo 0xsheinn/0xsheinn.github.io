@@ -1,6 +1,10 @@
 ---
 published: true
 image: /assets/img/sample/DogCat/dogcat.png
+headline: Dogcat is a medium machine from tryhackme
+categories:
+  - Machine-Writeup
+  - Tryhackme
 ---
 Hello guys , This is one of the machine in [tryhackme](https://tryhackme.com/).Name is [dogcat](https://tryhackme.com/room/dogcat).
 
