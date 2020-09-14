@@ -6,6 +6,7 @@ categories:
   - TryHackMe
 tags:
   - tryhackme
+title: 'Boundy Hacker [TryHackMe]'
 ---
 
 
