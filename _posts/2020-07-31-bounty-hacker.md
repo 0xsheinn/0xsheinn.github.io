@@ -7,6 +7,7 @@ categories:
 tags:
   - tryhackme
 title: 'Boundy Hacker [TryHackMe]'
+headline: 'Bounty Hacker is an easy machine from tryhackme,it absolutely beginner box.'
 ---
 
 
