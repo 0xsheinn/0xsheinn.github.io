@@ -1,11 +1,12 @@
 ---
 published: true
-image: /assets/img/sample/bounty_hacker_wirteup/boundy.png
+image: /assets/img/logo/bounty.png
 categories:
-  - Writeup
-  - TryHackMe
+  - Machine-Writeup
+  - Tryhackme
 tags:
   - tryhackme
+  - beginner
 title: 'Boundy Hacker [TryHackMe]'
 headline: 'Bounty Hacker is an easy machine from tryhackme,it absolutely beginner box.'
 ---
