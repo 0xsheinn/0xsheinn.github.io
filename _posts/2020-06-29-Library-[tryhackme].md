@@ -1,5 +1,10 @@
 ---
 published: true
+image: /assets/img/logo/library.png
+headline: Library is the next easy machine from tryhackme
+categories:
+  - Machine-Writeup
+  - Tryhackme
 ---
 ![Desktop View](/assets/img/sample/Library/5.png)
 
