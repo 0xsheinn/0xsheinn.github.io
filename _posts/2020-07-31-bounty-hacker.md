@@ -1,5 +1,11 @@
 ---
 published: true
+image: /assets/img/sample/bounty_hacker_wirteup/boundy.png
+categories:
+  - Writeup
+  - TryHackMe
+tags:
+  - tryhackme
 ---
 
 
