@@ -1,5 +1,10 @@
 ---
 published: true
+image: /assets/img/logo/tomghost.png
+categories:
+  - Machine-Writeup
+  - Tryhackme
+headline: Tomghost is a beginner box from tryhackme.
 ---
 ![Desktop View](/assets/img/sample/tomghost/1.png)
 
