@@ -11,8 +11,8 @@ published: true
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </h1>
     <div class="post-content" style="clear:both">
-      <img style="max-width:100px;float:left; border:100px" src="{{post.image}}" />
-      <p style="padding-left:20px;">
+      <img style="max-width:400px;float:center" src="{{post.image}}" />
+      <p style="padding-bottom:20px;">
       {{ post.headline | strip_html | truncate: 200 | replace: '&', '&amp;' }}
       </p>
     </div>
