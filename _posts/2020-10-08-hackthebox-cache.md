@@ -10,8 +10,6 @@ tags:
   - Hack The Box
 image: /assets/img/sample/cache/logo.png
 ---
-![Desktop View](/assets/img/sample/cache/logo.png)
-
 # [](header-2)Recon
 
 # [](header-3)Nmap Scanning
