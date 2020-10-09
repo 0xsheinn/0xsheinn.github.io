@@ -1,5 +1,13 @@
 ---
 published: true
+layout: Cache
+title: HackTheBox-Cache
+featured_img: /assets/img/sample/cache/logo.png
+categories:
+  - HackTheBox -- Active
+  - Linux
+tags:
+  - Hack The Box
 ---
 ![Desktop View](/assets/img/sample/cache/logo.png)
 
@@ -66,7 +74,7 @@ Here I found two folders `/javascript` and `/jquery`
 
 ![Desktop View](/assets/img/sample/cache/2.png)
 
-From the above file i got username:ash password:H@v3_fun I used these creds at /login.html
+From the above file i got username:`ash` password:`H@v3_fun` I used these creds at `/login.html`
 
 ![Desktop View](/assets/img/sample/cache/3.png)
 
