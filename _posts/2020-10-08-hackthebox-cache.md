@@ -1,6 +1,6 @@
 ---
 published: true
-layout: Cache
+layout: post
 title: HackTheBox-Cache
 featured_img: /assets/img/sample/cache/logo.png
 categories:
@@ -8,6 +8,7 @@ categories:
   - Linux
 tags:
   - Hack The Box
+image: /assets/img/sample/cache/logo.png
 ---
 ![Desktop View](/assets/img/sample/cache/logo.png)
 
