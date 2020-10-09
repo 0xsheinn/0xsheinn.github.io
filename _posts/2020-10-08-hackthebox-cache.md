@@ -10,6 +10,18 @@ tags:
   - Hack The Box
 image: /assets/img/sample/cache/logo.png
 ---
+# [](header-3) Introduction@cache:~$
+
+| Column            | Details          |
+|:------------------|:-----------------|
+| Name          	| Cache     	   |
+| IP            	| 10.10.10.188     |
+| Points 			| 30			   |
+| Os           		| Linux			   |
+| Difficulty		| Medium 		   |
+| Creator			| ASHacker         |
+| Out on     		| 9 May 2020	   |
+
 # [](header-2)Recon
 
 # [](header-3)Nmap Scanning
