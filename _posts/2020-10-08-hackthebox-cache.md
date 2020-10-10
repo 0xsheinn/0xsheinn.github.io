@@ -592,3 +592,5 @@ root@1d536c8a7e87:/#
 
 And we owned it , `thanks for reading`
 
+
+<script src="https://www.hackthebox.eu/badge/237587"></script>
