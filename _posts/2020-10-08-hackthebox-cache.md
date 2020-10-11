@@ -148,7 +148,7 @@ I found sql injection and I fuzzed for directories and parameters and then I got
 
 > <http://hms.htb/portal/add_edit_event_user.php?eid=1>
 
-so I captured with `burp` and saved the request as `sql.txt`
+so I captured with `burp` and saved the request as `login.req`
 
 ```yaml
 GET /portal/add_edit_event_user.php?eid=1 HTTP/1.1
